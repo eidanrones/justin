@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  border: 0px solid black;
+}
+
+body {
+  position: relative;
+  background: #eee;
+}
+
+#page1 {
+  padding-top: 50px;
+  height: 100vh;
+}
+
+#page2 {
+  height: 100vh;
+}
+
+#page3 {
+  background: #bbb;
+  height: 100vh;
+}
+
+#navigation {
+  background: rgba(54,116,128,1);
+  height: 50px;
+  width: 100%;
+  position: absolute;
+}
+
+#heading1 {
+  height: 35vh;
+  background: #ccc;
+}
+
+#content1 {
+  height: calc(65vh - 50px);
+  background: #ddd;
+}
